@@ -66,18 +66,18 @@ You can also run an individual example by navigating to its folder and executing
 
 ## Individual product examples
 
-Where a dedicated example repository exists, it is linked below. Missing public pages are marked as not available yet.
+Where a dedicated example repository exists, it is linked below. Missing example repositories are marked as not available yet.
 
 | Product | Examples | API Reference | Documentation |
 |---|---|---|---|
-| Annotation | Not available yet | [API](https://reference.groupdocs.com/annotation/) | Not available yet |
+| [Annotation](https://docs.groupdocs.com/annotation/) | Not available yet | [API](https://reference.groupdocs.com/annotation/) | [Docs](https://docs.groupdocs.com/annotation/) |
 | [Comparison](https://docs.groupdocs.com/comparison/nodejs-java/) | [Examples](https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/comparison/) | [Docs](https://docs.groupdocs.com/comparison/nodejs-java/) |
 | [Conversion](https://docs.groupdocs.com/conversion/nodejs-java/) | [Examples](https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/conversion/) | [Docs](https://docs.groupdocs.com/conversion/nodejs-java/) |
 | [Editor](https://docs.groupdocs.com/editor/nodejs-java/) | [Examples](https://github.com/groupdocs-editor/GroupDocs.Editor-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/editor/) | [Docs](https://docs.groupdocs.com/editor/nodejs-java/) |
 | [Merger](https://docs.groupdocs.com/merger/nodejs-java/) | [Examples](https://github.com/groupdocs-merger/GroupDocs.Merger-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/merger/) | [Docs](https://docs.groupdocs.com/merger/nodejs-java/) |
 | [Metadata](https://docs.groupdocs.com/metadata/nodejs-java/) | [Examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/metadata/) | [Docs](https://docs.groupdocs.com/metadata/nodejs-java/) |
-| Parser | Not available yet | [API](https://reference.groupdocs.com/parser/) | Not available yet |
-| Redaction | [Examples](https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/redaction/) | Not available yet |
+| [Parser](https://docs.groupdocs.com/parser/) | Not available yet | [API](https://reference.groupdocs.com/parser/) | [Docs](https://docs.groupdocs.com/parser/) |
+| [Redaction](https://docs.groupdocs.com/redaction/) | [Examples](https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/redaction/) | [Docs](https://docs.groupdocs.com/redaction/) |
 | [Search](https://docs.groupdocs.com/search/nodejs-java/) | [Examples](https://github.com/groupdocs-search/GroupDocs.Search-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/search/) | [Docs](https://docs.groupdocs.com/search/nodejs-java/) |
 | [Signature](https://docs.groupdocs.com/signature/nodejs-java/) | [Examples](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/signature/) | [Docs](https://docs.groupdocs.com/signature/nodejs-java/) |
 | [Viewer](https://docs.groupdocs.com/viewer/nodejs-java/) | [Examples](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/viewer/) | [Docs](https://docs.groupdocs.com/viewer/nodejs-java/) |
