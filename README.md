@@ -2,11 +2,11 @@
 
 [Product Page](https://products.groupdocs.com/total/) | [Docs](https://docs.groupdocs.com/total/) | [Demos](https://products.groupdocs.app/) | [API Reference](https://reference.groupdocs.com/) | [Blog](https://blog.groupdocs.com/category/groupdocs-total-product-family/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/total) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
 
-Runnable code for [GroupDocs.Total for Node.js via Java](https://releases.groupdocs.com/total/nodejs-java/) — every GroupDocs document API for Node.js in one examples project: viewing, conversion, comparison, signing, annotation, editing, metadata, search, watermarking, merging, parsing and redaction.
+Runnable code for [GroupDocs.Total for Node.js via Java](https://www.npmjs.com/package/@groupdocs/groupdocs.total) — every GroupDocs document API for Node.js in one examples project: viewing, conversion, comparison, signing, annotation, editing, metadata, search, watermarking, merging, parsing, redaction and Markdown.
 
 ## Examples
 
-[`Examples/`](Examples) holds a small, self-contained script per feature across all 12 bundled products — each opens a sample file, does one thing, and writes an output. Sample files sit next to the code that uses them, so an example runs with no extra setup.
+[`Examples/`](Examples) holds a small, self-contained script per feature across the bundled products — each opens a sample file, does one thing, and writes an output. Sample files sit next to the code that uses them, so an example runs with no extra setup.
 
 ```bash
 cd Examples
@@ -37,13 +37,7 @@ You can also run an individual example by navigating to its folder and executing
    cd ./GroupDocs.Total-for-Node.js-via-Java/Examples
    ```
 
-4. **Install Package**: To install the package, run `npm install`. We typically keep the package up to date with the latest version. If you need to use a different package version, you can update the `package.json` file accordingly.
-
-   Alternatively, you can download the `tgz` file from the official [GroupDocs Releases](https://releases.groupdocs.com/total/nodejs-java/) website. To install the package manually, copy the tgz file to the `Examples` directory and run:
-
-   ```bash
-   npm install ./groupdocs-groupdocs.total-*.tgz
-   ```
+4. **Install Package**: Run `npm install`. This pulls [`@groupdocs/groupdocs.total`](https://www.npmjs.com/package/@groupdocs/groupdocs.total) from npm. We typically keep the dependency on the latest published version; to use another version, change it in `package.json`.
 
 5. **Configure License (Optional)**: If you have a license file, you can set the license path in the `run_all_examples.js` file. By default, the runner checks for the `GROUPDOCS_LICENSE_PATH` (or `GROUPDOCS_LIC_PATH`) environment variable or looks for files with the `.lic` extension in the `Examples` directory. You can also [get a temporary license](https://purchase.groupdocs.com/temporary-license) to test all the features.
 
@@ -66,32 +60,33 @@ You can also run an individual example by navigating to its folder and executing
 - **Annotate** documents and read the markup back
 - **Edit** documents through an HTML round trip
 - **Read and edit metadata**, **search** document collections, **watermark**, **merge/split**,
-  **parse** text and data, and **redact** sensitive content
+  **parse** text and data, **redact** sensitive content, and **export to Markdown**
 
-> GroupDocs.Assembly, GroupDocs.Markdown and GroupDocs.Classification are separate products and are not part of GroupDocs.Total for Node.js via Java.
+> GroupDocs.Assembly and GroupDocs.Classification are separate products and are not part of GroupDocs.Total for Node.js via Java.
 
 ## Individual product examples
 
-Each bundled product also ships its own, deeper example repository:
+Where a dedicated example repository exists, it is linked below. Missing public pages are marked as not available yet.
 
 | Product | Examples | API Reference | Documentation |
 |---|---|---|---|
-| [Annotation](https://docs.groupdocs.com/annotation/nodejs-java/) | [Examples](https://github.com/groupdocs-annotation/GroupDocs.Annotation-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/annotation/) | [Docs](https://docs.groupdocs.com/annotation/nodejs-java/) |
+| Annotation | Not available yet | [API](https://reference.groupdocs.com/annotation/) | Not available yet |
 | [Comparison](https://docs.groupdocs.com/comparison/nodejs-java/) | [Examples](https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/comparison/) | [Docs](https://docs.groupdocs.com/comparison/nodejs-java/) |
 | [Conversion](https://docs.groupdocs.com/conversion/nodejs-java/) | [Examples](https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/conversion/) | [Docs](https://docs.groupdocs.com/conversion/nodejs-java/) |
 | [Editor](https://docs.groupdocs.com/editor/nodejs-java/) | [Examples](https://github.com/groupdocs-editor/GroupDocs.Editor-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/editor/) | [Docs](https://docs.groupdocs.com/editor/nodejs-java/) |
 | [Merger](https://docs.groupdocs.com/merger/nodejs-java/) | [Examples](https://github.com/groupdocs-merger/GroupDocs.Merger-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/merger/) | [Docs](https://docs.groupdocs.com/merger/nodejs-java/) |
 | [Metadata](https://docs.groupdocs.com/metadata/nodejs-java/) | [Examples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/metadata/) | [Docs](https://docs.groupdocs.com/metadata/nodejs-java/) |
-| [Parser](https://docs.groupdocs.com/parser/nodejs-java/) | [Examples](https://github.com/groupdocs-parser/GroupDocs.Parser-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/parser/) | [Docs](https://docs.groupdocs.com/parser/nodejs-java/) |
-| [Redaction](https://docs.groupdocs.com/redaction/nodejs-java/) | [Examples](https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/redaction/) | [Docs](https://docs.groupdocs.com/redaction/nodejs-java/) |
+| Parser | Not available yet | [API](https://reference.groupdocs.com/parser/) | Not available yet |
+| Redaction | [Examples](https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/redaction/) | Not available yet |
 | [Search](https://docs.groupdocs.com/search/nodejs-java/) | [Examples](https://github.com/groupdocs-search/GroupDocs.Search-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/search/) | [Docs](https://docs.groupdocs.com/search/nodejs-java/) |
 | [Signature](https://docs.groupdocs.com/signature/nodejs-java/) | [Examples](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/signature/) | [Docs](https://docs.groupdocs.com/signature/nodejs-java/) |
 | [Viewer](https://docs.groupdocs.com/viewer/nodejs-java/) | [Examples](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/viewer/) | [Docs](https://docs.groupdocs.com/viewer/nodejs-java/) |
 | [Watermark](https://docs.groupdocs.com/watermark/nodejs-java/) | [Examples](https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/watermark/) | [Docs](https://docs.groupdocs.com/watermark/nodejs-java/) |
+| [Markdown](https://docs.groupdocs.com/markdown/) | Not available yet | [API](https://reference.groupdocs.com/markdown/) | [Docs](https://docs.groupdocs.com/markdown/) |
 
 ## Resources
 
-- **Downloads:** [GroupDocs.Total for Node.js via Java](https://releases.groupdocs.com/total/nodejs-java/)
+- **npm:** [@groupdocs/groupdocs.total](https://www.npmjs.com/package/@groupdocs/groupdocs.total)
 - **Documentation:** [docs.groupdocs.com/total](https://docs.groupdocs.com/total/)
 - **API reference:** [reference.groupdocs.com](https://reference.groupdocs.com/)
 - **Free support:** [Forum](https://forum.groupdocs.com/c/total)
