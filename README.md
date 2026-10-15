@@ -2,7 +2,7 @@
 
 [Product Page](https://products.groupdocs.com/total/) | [Docs](https://docs.groupdocs.com/total/) | [Demos](https://products.groupdocs.app/) | [API Reference](https://reference.groupdocs.com/) | [Blog](https://blog.groupdocs.com/category/groupdocs-total-product-family/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/total) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
 
-Runnable code for [GroupDocs.Total for Node.js via Java](https://www.npmjs.com/package/@groupdocs/groupdocs.total) — every GroupDocs document API for Node.js in one examples project: viewing, conversion, comparison, signing, annotation, editing, metadata, search, watermarking, merging, parsing, redaction and Markdown.
+Runnable code for [GroupDocs.Total for Node.js via Java](https://www.npmjs.com/package/@groupdocs/groupdocs.total) — every GroupDocs document API for Node.js in one examples project: viewing, conversion, comparison, signing, annotation, editing, assembly, metadata, search, watermarking, merging, parsing, redaction and Markdown.
 
 ## Examples
 
@@ -59,10 +59,11 @@ You can also run an individual example by navigating to its folder and executing
 - **Sign** documents and search or verify signatures
 - **Annotate** documents and read the markup back
 - **Edit** documents through an HTML round trip
+- **Assemble** reports from templates and JSON, XML, CSV, spreadsheet data or a Java object
 - **Read and edit metadata**, **search** document collections, **watermark**, **merge/split**,
   **parse** text and data, **redact** sensitive content, and **export to Markdown**
 
-> GroupDocs.Assembly and GroupDocs.Classification are separate products and are not part of GroupDocs.Total for Node.js via Java.
+> GroupDocs.Classification is a separate product and is not part of GroupDocs.Total for Node.js via Java.
 
 ## Individual product examples
 
@@ -71,6 +72,7 @@ Where a dedicated example repository exists, it is linked below. Missing example
 | Product | Examples | API Reference | Documentation |
 |---|---|---|---|
 | [Annotation](https://docs.groupdocs.com/annotation/) | Not available yet | [API](https://reference.groupdocs.com/annotation/) | [Docs](https://docs.groupdocs.com/annotation/) |
+| [Assembly](https://docs.groupdocs.com/assembly/nodejs-java/) | Not available yet | [API](https://reference.groupdocs.com/assembly/java/) | [Docs](https://docs.groupdocs.com/assembly/nodejs-java/) |
 | [Comparison](https://docs.groupdocs.com/comparison/nodejs-java/) | [Examples](https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/comparison/) | [Docs](https://docs.groupdocs.com/comparison/nodejs-java/) |
 | [Conversion](https://docs.groupdocs.com/conversion/nodejs-java/) | [Examples](https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/conversion/) | [Docs](https://docs.groupdocs.com/conversion/nodejs-java/) |
 | [Editor](https://docs.groupdocs.com/editor/nodejs-java/) | [Examples](https://github.com/groupdocs-editor/GroupDocs.Editor-for-Node.js-via-Java) | [API](https://reference.groupdocs.com/editor/) | [Docs](https://docs.groupdocs.com/editor/nodejs-java/) |

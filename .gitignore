@@ -142,3 +142,9 @@ Examples/annotation/annotation-highlight.pdf
 Examples/annotation/annotation-highlight.docx
 Examples/annotation/annotation-extract.pdf
 Examples/annotation/annotation-extract.docx
+Examples/assembly/assembly-json.docx
+Examples/assembly/assembly-xml.docx
+Examples/assembly/assembly-spreadsheet.docx
+Examples/assembly/assembly-csv.docx
+Examples/assembly/assembly-object.txt
+!Examples/assembly/sample/Manager.class

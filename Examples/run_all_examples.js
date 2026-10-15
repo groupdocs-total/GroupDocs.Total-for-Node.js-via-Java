@@ -52,7 +52,12 @@ const examples = {
   EditorSaveAsRtf: 'editor/editor-save-as-rtf.js',
   AnnotationAddArea: 'annotation/annotation-add-area.js',
   AnnotationHighlight: 'annotation/annotation-highlight.js',
-  AnnotationExtract: 'annotation/annotation-extract.js'
+  AnnotationExtract: 'annotation/annotation-extract.js',
+  AssemblyAssembleJson: 'assembly/assembly-assemble-json.js',
+  AssemblyAssembleXml: 'assembly/assembly-assemble-xml.js',
+  AssemblyAssembleSpreadsheet: 'assembly/assembly-assemble-spreadsheet.js',
+  AssemblyAssembleCsv: 'assembly/assembly-assemble-csv.js',
+  AssemblyAssembleObject: 'assembly/assembly-assemble-object.js'
 }
 
 function printIntro() {
@@ -70,6 +75,7 @@ Each example demonstrates a single product use case such as:
 - Signing documents and searching signatures
 - Editing documents through an HTML round trip
 - Annotating documents and reading the markup back
+- Assembling documents from templates and JSON, XML, CSV, spreadsheets or a Java object
 - Reading and sanitizing metadata, parsing text, and redacting sensitive content
 - Searching document collections
 - Watermarking and merging or splitting files
