@@ -1,12 +1,12 @@
 # GroupDocs.Total for Node.js via Java - Code Examples
 
-[Product Page](https://products.groupdocs.com/total/) | [Docs](https://docs.groupdocs.com/total/) | [Demos](https://products.groupdocs.app/) | [API Reference](https://reference.groupdocs.com/) | [Blog](https://blog.groupdocs.com/category/groupdocs-total-product-family/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/total) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/total/) | [Docs](https://docs.groupdocs.com/total/) | [Demos](https://products.groupdocs.app/) | [API Reference](https://reference.groupdocs.com/) | [Blog](https://blog.groupdocs.com/categories/groupdocs.total-product-family/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/total) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
 
-Runnable code for [GroupDocs.Total for Node.js via Java](https://www.npmjs.com/package/@groupdocs/groupdocs.total) — every GroupDocs document API for Node.js in one examples project: viewing, conversion, comparison, signing, annotation, editing, assembly, metadata, search, watermarking, merging, parsing, redaction and Markdown.
+Runnable code for [GroupDocs.Total for Node.js via Java](https://www.npmjs.com/package/@groupdocs/groupdocs.total)  -  every GroupDocs document API for Node.js in one examples project: viewing, conversion, comparison, signing, annotation, editing, assembly, metadata, search, watermarking, merging, parsing, redaction and Markdown.
 
 ## Examples
 
-[`Examples/`](Examples) holds a small, self-contained script per feature across the bundled products — each opens a sample file, does one thing, and writes an output. Sample files sit next to the code that uses them, so an example runs with no extra setup.
+[`Examples/`](Examples) holds a small, self-contained script per feature across the bundled products  -  each opens a sample file, does one thing, and writes an output. Sample files sit next to the code that uses them, so an example runs with no extra setup.
 
 ```bash
 cd Examples
@@ -37,7 +37,7 @@ You can also run an individual example by navigating to its folder and executing
    cd ./GroupDocs.Total-for-Node.js-via-Java/Examples
    ```
 
-4. **Install Package**: Run `npm install`. This pulls [`@groupdocs/groupdocs.total`](https://www.npmjs.com/package/@groupdocs/groupdocs.total) from npm. We typically keep the dependency on the latest published version; to use another version, change it in `package.json`.
+4. **Install Package**: Run `npm install`. This pulls [`@groupdocs/groupdocs.total`](https://www.npmjs.com/package/@groupdocs/groupdocs.total) from npm. Examples/package.json pins `@groupdocs/groupdocs.total` at 26.10.0. To use another version, change it in `package.json`.
 
 5. **Configure License (Optional)**: If you have a license file, you can set the license path in the `run_all_examples.js` file. By default, the runner checks for the `GROUPDOCS_LICENSE_PATH` (or `GROUPDOCS_LIC_PATH`) environment variable or looks for files with the `.lic` extension in the `Examples` directory. You can also [get a temporary license](https://purchase.groupdocs.com/temporary-license) to test all the features.
 
@@ -51,7 +51,7 @@ You can also run an individual example by navigating to its folder and executing
 
 ## All-in-one document automation API
 
-**GroupDocs.Total for Node.js via Java** is a comprehensive suite of high-performance libraries that integrate document manipulation into Node.js applications — no other commercial software required. Across **PDF, DOCX, PPTX, XLSX** and 90+ other formats it can:
+**GroupDocs.Total for Node.js via Java** is a comprehensive suite of high-performance libraries that integrate document manipulation into Node.js applications  -  no other commercial software required. Across **PDF, DOCX, PPTX, XLSX** and 90+ other formats it can:
 
 - **View** documents as HTML, PDF or images
 - **Convert** between 170+ formats
@@ -93,12 +93,12 @@ Where a dedicated example repository exists, it is linked below. Missing example
 - **API reference:** [reference.groupdocs.com](https://reference.groupdocs.com/)
 - **Free support:** [Forum](https://forum.groupdocs.com/c/total)
 - **Paid support:** [Helpdesk](https://helpdesk.groupdocs.com)
-- **Blog:** [GroupDocs.Total](https://blog.groupdocs.com/category/groupdocs-total-product-family)
+- **Blog:** [GroupDocs.Total](https://blog.groupdocs.com/categories/groupdocs.total-product-family)
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License  -  see the [LICENSE](LICENSE) file for details.
 
 ---
 
-[Product Page](https://products.groupdocs.com/total/) | [Docs](https://docs.groupdocs.com/total/) | [Demos](https://products.groupdocs.app/) | [API Reference](https://reference.groupdocs.com/) | [Blog](https://blog.groupdocs.com/category/groupdocs-total-product-family/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/total) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/total/) | [Docs](https://docs.groupdocs.com/total/) | [Demos](https://products.groupdocs.app/) | [API Reference](https://reference.groupdocs.com/) | [Blog](https://blog.groupdocs.com/categories/groupdocs.total-product-family/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/total) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

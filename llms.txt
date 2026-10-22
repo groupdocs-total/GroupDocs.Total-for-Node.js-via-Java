@@ -1,0 +1,15 @@
+# GroupDocs.Total for Node.js via Java examples
+
+Package: @groupdocs/groupdocs.total
+Pinned in Examples/package.json: 26.10.0
+npm: https://www.npmjs.com/package/@groupdocs/groupdocs.total
+Docs: https://docs.groupdocs.com/total/
+
+From Examples/:
+
+- npm install
+- npm start
+- node run_all_examples.js --list
+
+Node.js 20 LTS and JRE 8 or later.
+Do not describe the dependency as latest.
