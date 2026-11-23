@@ -1,11 +1,9 @@
 # Build stage – compiles native module and installs dependencies
-FROM node:20-bullseye AS build
-RUN apt-get update && apt-get install -y \
+FROM node:20-bookworm AS build
+RUN apt-get update && apt-get install -y --no-install-recommends \
     openjdk-17-jdk-headless \
-    build-essential
-
-# Clean up cache
-RUN rm -rf /var/lib/apt/lists/*
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
 
 # Set JAVA_HOME and update PATH
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
@@ -24,14 +22,12 @@ RUN npm install --omit=dev
 COPY . .
 
 # Final stage – slim runtime image
-FROM node:20-bullseye-slim AS final
+FROM node:20-bookworm-slim AS final
 
 # Install Java runtime
-RUN apt-get update && apt-get install -y \
-    openjdk-17-jre-headless
-
-# Clean up cache
-RUN rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    openjdk-17-jre-headless \
+    && rm -rf /var/lib/apt/lists/*
 
 # Set JAVA_HOME and update PATH
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
