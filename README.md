@@ -37,7 +37,7 @@ You can also run an individual example by navigating to its folder and executing
    cd ./GroupDocs.Total-for-Node.js-via-Java/Examples
    ```
 
-4. **Install Package**: Run `npm install`. This pulls [`@groupdocs/groupdocs.total`](https://www.npmjs.com/package/@groupdocs/groupdocs.total) from npm. Examples/package.json pins `@groupdocs/groupdocs.total` at 26.10.0. To use another version, change it in `package.json`.
+4. **Install Package**: Run `npm install`. This pulls [`@groupdocs/groupdocs.total`](https://www.npmjs.com/package/@groupdocs/groupdocs.total) from npm. Examples/package.json pins `@groupdocs/groupdocs.total` at 26.11.0. To use another version, change it in `package.json`.
 
 5. **Configure License (Optional)**: If you have a license file, you can set the license path in the `run_all_examples.js` file. By default, the runner checks for the `GROUPDOCS_LICENSE_PATH` (or `GROUPDOCS_LIC_PATH`) environment variable or looks for files with the `.lic` extension in the `Examples` directory. You can also [get a temporary license](https://purchase.groupdocs.com/temporary-license) to test all the features.
 

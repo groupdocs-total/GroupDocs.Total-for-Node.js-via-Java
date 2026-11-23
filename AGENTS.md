@@ -8,7 +8,7 @@ Runnable Node.js examples for `@groupdocs/groupdocs.total`.
 
 - npm: https://www.npmjs.com/package/@groupdocs/groupdocs.total
 - Docs: https://docs.groupdocs.com/total/
-- `Examples/package.json` pins `@groupdocs/groupdocs.total` at 26.10.0
+- `Examples/package.json` pins `@groupdocs/groupdocs.total` at 26.11.0
 
 ## Commands
 
@@ -29,6 +29,6 @@ node run_all_examples.js --example ViewerRenderToHtml
 
 ## Do not
 
-- Describe the dependency as latest. The examples pin 26.10.0.
+- Describe the dependency as latest. The examples pin 26.11.0.
 - Invent a format count.
 - Edit Cloud product repositories or the MCP server from this repo.
